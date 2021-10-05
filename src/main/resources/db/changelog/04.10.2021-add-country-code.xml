@@ -8,7 +8,7 @@
     <changeSet author="liquibase-docs" id="addColumn-example">
         <addColumn tableName="countries">
             <column afterColumn="name"
-                    name="cod"
+                    name="code"
                     type="varchar(3)">
                 <constraints nullable="false"/>
             </column>
